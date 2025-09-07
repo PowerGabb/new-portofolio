@@ -3,7 +3,8 @@ import React, { useState, useEffect } from "react";
 
 export default function HomeHero() {
   const allTexts = [
-    "Pembuatan Aplikasi Dan Website",
+    "Pembuatan Aplikasi",
+    "Pembuatan Website",
     "Pembuatan Design", 
     "Joki Tugas IT"
   ];
