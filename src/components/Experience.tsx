@@ -9,10 +9,11 @@ export default function Experience() {
       location: "Jakarta, Indonesia",
       period: "2022 - Sekarang",
       description: [
-        "Memimpin tim pengembangan aplikasi web menggunakan React, Node.js, dan MongoDB",
-        "Mengoptimalkan performa aplikasi hingga 40% lebih cepat",
-        "Mentoring junior developer dan code review",
-        "Implementasi CI/CD pipeline dan DevOps practices"
+        "Mengembangkan dan memelihara aplikasi web yang mendukung proses bisnis dan sistem perbankan internal",
+        "Berkolaborasi dengan tim UI/UX untuk memastikan aplikasi mudah digunakan dan sesuai kebutuhan pengguna",
+        "Membangun tampilan yang responsif dan interaktif untuk berbagai perangkat",
+        "Mengembangkan fitur frontend dan backend dengan fokus pada performa, keamanan, dan skalabilitas",
+        "Melakukan pengujian dan optimasi agar aplikasi stabil dan minim bug"
       ],
       technologies: ["React", "Node.js", "MongoDB", "AWS", "Docker"]
     },

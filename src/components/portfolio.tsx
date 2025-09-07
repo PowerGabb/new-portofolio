@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { FaExternalLinkAlt, FaGithub, FaReact, FaNodeJs, FaDatabase, FaMobile } from "react-icons/fa";
-import { SiNextdotjs, SiTailwindcss, SiMongodb, SiExpress, SiFlutter, SiReact } from "react-icons/si";
+import { FaExternalLinkAlt, FaGithub, FaAngular, FaJava, FaVuejs, FaLaravel } from "react-icons/fa";
+import { SiTailwindcss,  SiReact, SiPostgresql } from "react-icons/si";
 
 export default function Portfolio() {
   const [activeFilter, setActiveFilter] = useState("all");
@@ -12,7 +12,7 @@ export default function Portfolio() {
       description: "Platform manajemen audit banking modern dengan fitur lengkap seperti monitoring transaksi, analisis risiko, dan reporting.",
       image: "/portofolio/audit.png",
       category: "web",
-      technologies: [<FaReact />, <SiNextdotjs />, <SiTailwindcss />, <SiMongodb />],
+      technologies: [<FaAngular />, <FaJava />, <SiTailwindcss />],
       liveUrl: "#",
       githubUrl: "#",
       featured: true
@@ -23,7 +23,7 @@ export default function Portfolio() {
       description: "Aplikasi manajemen batch untuk proses audit banking dengan fitur scheduling, monitoring, dan reporting.",
       image: "/portofolio/ams-batch.png",
       category: "web",
-      technologies: [<SiFlutter />, <FaNodeJs />, <SiExpress />, <FaDatabase />],
+      technologies: [<FaJava />, <SiPostgresql />],
       liveUrl: "#",
       githubUrl: "#",
       featured: true
@@ -34,7 +34,7 @@ export default function Portfolio() {
       description: "Sistem manajemen bangunan dengan fitur manajemen proyek, inventaris, dan laporan keuangan.",
       image: "/portofolio/bms.png",
       category: "web",
-      technologies: [<FaReact />, <FaNodeJs />, <SiMongodb />, <SiTailwindcss />],
+      technologies: [<FaJava />, <SiPostgresql />, <FaVuejs/>, <SiTailwindcss/>],
       liveUrl: "#",
       githubUrl: "#",
       featured: false
@@ -45,7 +45,7 @@ export default function Portfolio() {
       description: "Library component untuk New Trade System dengan fitur CRUD, validation, dan utility functions, Input, Button Dll.",
       image: "/portofolio/nts-lib.png",
       category: "web",
-      technologies: [<SiNextdotjs />, <FaReact />, <SiTailwindcss />, <FaDatabase />],
+      technologies: [<FaAngular/>, <FaJava/>, <SiTailwindcss/>, <SiPostgresql/>],
       liveUrl: "#",
       githubUrl: "#",
       featured: false
@@ -56,7 +56,7 @@ export default function Portfolio() {
       description: "Aplikasi web untuk Pemblian Kartu Perdana, Esim, Paket Data Antar Negara",
       image: "/portofolio/konectgo.png",
       category: "web",
-      technologies: [<FaReact />, <FaMobile />, <FaNodeJs />, <SiMongodb />],
+      technologies: [<FaAngular />, <FaJava />, <SiTailwindcss />, <SiPostgresql />],
       liveUrl: "#",
       githubUrl: "#",
       featured: false
@@ -78,7 +78,7 @@ export default function Portfolio() {
       description: "Aplikasi mobile untuk Pemblian Kartu Perdana, Esim, Paket Data Antar Negara",
       image: "/portofolio/konectgo-mobile.png",
       category: "design",
-      technologies: [<SiReact />],
+      technologies: [<SiReact />, <SiTailwindcss />],
       liveUrl: "#",
       githubUrl: "#",
       featured: false
@@ -110,7 +110,7 @@ export default function Portfolio() {
       description: "Aplikasi Web tempat user dapat mengelola perpustakaan, seperti menambah, mengedit, dan menghapus buku, member, dan transaksi.",
       image: "/portofolio/library.png",
       category: "web",
-      technologies: [<SiReact />],
+      technologies: [<FaLaravel />],
       liveUrl: "#",
       githubUrl: "#",
       featured: false
