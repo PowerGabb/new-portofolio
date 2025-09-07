@@ -1,4 +1,3 @@
-import React from "react";
 import { FaCode, FaDesktop, FaGraduationCap, FaClock } from "react-icons/fa";
 
 export default function AboutMe() {

@@ -1,5 +1,5 @@
 import { WavyBackground } from "@/components/ui/wavy-background";
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 export default function HomeHero() {
   const allTexts = [

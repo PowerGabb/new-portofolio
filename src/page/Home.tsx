@@ -1,11 +1,9 @@
-import HomeHero from "@/components/HomeHero";
 import AboutMe from "@/components/AboutMe";
-import Services from "@/components/services";
-import Portfolio from "@/components/portfolio";
 import Experience from "@/components/Experience";
-import Testimonials from "@/components/Testimonials";
 import Footer from "@/components/Footer";
-import React from "react";
+import HomeHero from "@/components/HomeHero";
+import Portfolio from "@/components/portfolio";
+import Services from "@/components/services";
 
 export default function Home() {
   return (

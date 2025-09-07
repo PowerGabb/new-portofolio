@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { FaExternalLinkAlt, FaGithub, FaReact, FaNodeJs, FaDatabase, FaMobile } from "react-icons/fa";
-import { SiNextdotjs, SiTailwindcss, SiMongodb, SiExpress, SiFlutter, SiFigma, SiReact } from "react-icons/si";
+import { SiNextdotjs, SiTailwindcss, SiMongodb, SiExpress, SiFlutter, SiReact } from "react-icons/si";
 
 export default function Portfolio() {
   const [activeFilter, setActiveFilter] = useState("all");

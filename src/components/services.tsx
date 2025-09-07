@@ -1,4 +1,3 @@
-import React from "react";
 import { FaCode, FaPalette, FaGraduationCap, FaMobile, FaServer, FaSearch } from "react-icons/fa";
 
 export default function Services() {

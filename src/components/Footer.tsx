@@ -1,5 +1,4 @@
-import React from "react";
-import { FaGithub, FaLinkedin, FaTwitter, FaInstagram, FaEnvelope, FaPhone, FaMapMarkerAlt, FaHeart, FaArrowUp } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope, FaPhone, FaMapMarkerAlt, FaArrowUp, FaHeart } from 'react-icons/fa';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
